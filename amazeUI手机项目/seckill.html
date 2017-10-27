@@ -1,0 +1,463 @@
+<!doctype html>
+<html class="no-js">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>phone项目</title>
+
+		<!-- Set render engine for 360 browser -->
+		<meta name="renderer" content="webkit">
+
+		<!-- No Baidu Siteapp-->
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+		<!--网址图标-->
+		<link rel="icon" type="image/png" href="assets/i/favicon.png">
+
+		<!-- Add to homescreen for Chrome on Android -->
+		<meta name="mobile-web-app-capable" content="yes">
+		<link rel="icon" sizes="192x192" href="assets/i/app-icon72x72@2x.png">
+
+		<!-- Add to homescreen for Safari on iOS -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="Amaze UI" />
+		<link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+
+		<!-- Tile icon for Win8 (144x144 + tile color) -->
+		<meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+		<meta name="msapplication-TileColor" content="#0e90d2">
+
+		<link rel="stylesheet" href="assets/css/amazeui.min.css">
+		<link rel="stylesheet" href="css/seckill.css">
+	</head>
+
+	<body>
+		<!--在这里编写你的代码-->
+		<!--头部导航栏-->
+		<div class="header">
+			<header data-am-widget="header" class="am-header am-header-default am-header-fixed">
+				<div class="am-header-left am-header-nav">
+					<a href="index.html" class="">
+						<span class="logo">
+						<img src="img/logo.png" />
+					</span>
+					</a>
+				</div>
+				<div class="am-header-right am-header-nav">
+					<a class="">
+						<span class="search"></span>
+					</a>
+					<a href="personal.html" class="">
+						<span class="personal"></span>
+					</a>
+					<a href="shoppingbag.html" class="">
+						<span class="bag pr">
+						<span class="num">0</span>
+						</span>
+					</a>
+				</div>
+			</header>
+			<!--搜索盒子-->
+			<div class="search-box">
+				<ul id="collapse-nav-1" class="am-list admin-sidebar-list">
+					<li class="am-panel sbox pr">
+						<input type="text" name="" id="" value="" placeholder="请输入搜索内容" />
+						<span class="cancel">取消</span>
+					</li>
+					<li class="am-panel">
+						<a class="list-a am-cf" data-am-collapse="{parent: '#collapse-nav-1', target: '#kitchen-nav'}">
+							美味餐厨
+							<i class="am-icon-angle-down am-fr am-margin-right"></i>
+						</a>
+						<ul class="am-list am-collapse admin-sidebar-sub" id="kitchen-nav">
+							<li>
+								<a class="list-b" href="#/userAdd">烹饪锅具 </a>
+							</li>
+							<li>
+								<a class="list-b" href="#/userList/0">厨房工具 </a>
+							</li>
+							<li>
+								<a class="list-b" href="#/userAdd">厨房电器 </a>
+							</li>
+							<li>
+								<a class="list-b" href="#/userList/0">餐具桌面 </a>
+							</li>
+							<li>
+								<a class="list-b" href="#/userAdd">水具酒具 </a>
+							</li>
+						</ul>
+					</li>
+
+					<li class="am-panel">
+						<a class="list-a am-cf" data-am-collapse="{parent: '#collapase-nav-1', target: '#textiles-nav'}">
+							家纺家饰
+							<i class="am-icon-angle-down am-fr am-margin-right"></i>
+						</a>
+						<ul class="am-list am-collapse admin-sidebar-sub" id="textiles-nav">
+							<li>
+								<a class="list-b" href="#">家纺 </a>
+							</li>
+							<li>
+								<a class="list-b" href="#">装饰</a>
+							</li>
+						</ul>
+					</li>
+					<li class="am-panel">
+						<a class="list-a am-cf" data-am-collapse="{parent: '#collapase-nav-1', target: '#life-nav'}">
+							生活日用
+							<i class="am-icon-angle-down am-fr am-margin-right"></i>
+						</a>
+						<ul class="am-list am-collapse admin-sidebar-sub" id="life-nav">
+							<li>
+								<a class="list-b" href="#">清洁</a>
+							</li>
+							<li>
+								<a class="list-b" href="#">收纳</a>
+							</li>
+							<li>
+								<a class="list-b" href="#">雨具</a>
+							</li>
+							<li>
+								<a class="list-b" href="#">浴室</a>
+							</li>
+							<li>
+								<a class="list-b" href="#">生活电器</a>
+							</li>
+							<li>
+								<a class="list-b" href="#">颈枕口罩</a>
+							</li>
+							<li>
+								<a class="list-b" href="#">宠物用品</a>
+							</li>
+							<li>
+								<a class="list-b" href="#">保暖防护</a>
+							</li>
+							<li>
+								<a class="list-b" href="#">旅游用品</a>
+							</li>
+						</ul>
+					</li>
+					<li class="am-panel">
+						<a class="list-a am-cf" data-am-collapse="{parent: '#collapase-nav-1', target: '#health-nav'}">
+							健康美体
+							<i class="am-icon-angle-down am-fr am-margin-right"></i>
+						</a>
+						<ul class="am-list am-collapse admin-sidebar-sub" id="health-nav">
+							<li>
+								<a class="list-b" href="#">口腔护理</a>
+							</li>
+							<li>
+								<a class="list-b" href="#">面部护理</a>
+							</li>
+							<li>
+								<a class="list-b" href="#">全身护理</a>
+							</li>
+							<li>
+								<a class="list-b" href="#">头发护理</a>
+							</li>
+							<li>
+								<a class="list-b" href="#">女性护理</a>
+							</li>
+							<li>
+								<a class="list-b" href="#">纤体塑身</a>
+							</li>
+							<li>
+								<a class="list-b" href="#">膳食补充</a>
+							</li>
+							<li>
+								<a class="list-b" href="#">美容彩妆</a>
+							</li>
+						</ul>
+					</li>
+					<li class="am-panel">
+						<a class="list-a am-cf" data-am-collapse="{parent: '#collapase-nav-1', target: '#office-nav'}">
+							文具数码
+							<i class="am-icon-angle-down am-fr am-margin-right"></i>
+						</a>
+						<ul class="am-list am-collapse admin-sidebar-sub" id="office-nav">
+							<li>
+								<a class="list-b" href="#">笔记手帐</a>
+							</li>
+							<li>
+								<a class="list-b" href="#">书写工具</a>
+							</li>
+							<li>
+								<a class="list-b" href="#">办公收纳</a>
+							</li>
+							<li>
+								<a class="list-b" href="#">贺卡包装</a>
+							</li>
+							<li>
+								<a class="list-b" href="#">数码配件</a>
+							</li>
+							<li>
+								<a class="list-b" href="#">耳机/音箱</a>
+							</li>
+							<li>
+								<a class="list-b" href="#">摄影相关</a>
+							</li>
+						</ul>
+					</li>
+					<li class="am-panel">
+						<a class="list-a" href="#">
+							品牌
+							<i class="am-icon-angle-right am-fr am-margin-right"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--抢购导航栏-->
+		<div class="seckill-nav">
+			<div class="am-g">
+				<div class="am-u-sm-4 sec-box active">
+					<p>10:00</p>
+					<p>抢购中</p>
+				</div>
+				<div class="am-u-sm-4 sec-box">
+					<p>14:00</p>
+					<p>即将开始</p>
+				</div>
+				<div class="am-u-sm-4 sec-box">
+					<p>20:00</p>
+					<p>即将开始</p>
+				</div>
+			</div>
+		</div>
+		<!--抢购标题倒计时-->
+		<div class="seckill-title am-cf">
+			距离本场结束
+			<div class="time am-fr">
+
+			</div>
+		</div>
+		<!--抢购商品列表-->
+		<div class="sgood-list">
+			<ul>
+				<li class="am-cf pr">
+					<div class="pic_box am-fl">
+						<img src="img/a1.jpg" />
+					</div>
+					<div class="infor-box am-fl">
+						<p>双层果盘/零食碗/糖盒</p>
+						<p>
+							<span class="sk">秒杀</span>
+							<span class="np">&yen;68</span>
+							<span class="op">&yen;232</span>
+						</p>
+					</div>
+					<div class="buy-btn">
+						<a href="details.html">抢购中</a>
+					</div>
+				</li>
+				<li class="am-cf pr">
+					<div class="pic_box am-fl">
+						<img src="img/a2.jpg" />
+					</div>
+					<div class="infor-box am-fl">
+						<p>不锈钢西餐餐具 8件套</p>
+						<p>
+							<span class="sk">秒杀</span>
+							<span class="np">&yen;99</span>
+							<span class="op">&yen;599</span>
+						</p>
+					</div>
+					<div class="buy-btn">
+						<a href="details.html">抢购中</a>
+					</div>
+				</li>
+				<li class="am-cf pr">
+					<div class="pic_box am-fl">
+						<img src="img/a3.jpg" />
+					</div>
+					<div class="infor-box am-fl">
+						<p>吉祥如意系列名片香</p>
+						<p>
+							<span class="sk">秒杀</span>
+							<span class="np">&yen;55</span>
+							<span class="op">&yen;173</span>
+						</p>
+					</div>
+					<div class="buy-btn">
+						<a href="details.html">抢购中</a>
+					</div>
+				</li>
+				<li class="am-cf pr">
+					<div class="pic_box am-fl">
+						<img src="img/a4.jpg" />
+					</div>
+					<div class="infor-box am-fl">
+						<p>FAFA 洗衣液/柔顺剂套装</p>
+						<p>
+							<span class="sk">秒杀</span>
+							<span class="np">&yen;39</span>
+							<span class="op">&yen;92</span>
+						</p>
+					</div>
+					<div class="buy-btn">
+						<a href="details.html">抢购中</a>
+					</div>
+				</li>
+				<li class="am-cf pr">
+					<div class="pic_box am-fl">
+						<img src="img/a5.jpg" />
+					</div>
+					<div class="infor-box am-fl">
+						<p>婴儿玻璃奶瓶210ml 断奶时期不哭闹</p>
+						<p>
+							<span class="sk">秒杀</span>
+							<span class="np">&yen;55</span>
+							<span class="op">&yen;186</span>
+						</p>
+					</div>
+					<div class="buy-btn">
+						<a href="details.html">抢购中</a>
+					</div>
+				</li>
+				<li class="am-cf pr">
+					<div class="pic_box am-fl">
+						<img src="img/a6.jpg" />
+					</div>
+					<div class="infor-box am-fl">
+						<p>小浮雕玻璃杯 </p>
+						<p>
+							<span class="sk">秒杀</span>
+							<span class="np">&yen;138</span>
+							<span class="op">&yen;138</span>
+						</p>
+					</div>
+					<div class="buy-btn">
+						<a href="details.html">抢购中</a>
+					</div>
+				</li>
+				<li class="am-cf pr">
+					<div class="pic_box am-fl">
+						<img src="img/a7.jpg" />
+					</div>
+					<div class="infor-box am-fl">
+						<p>田园风花卉厨用隔热垫</p>
+						<p>
+							<span class="sk">秒杀</span>
+							<span class="np">&yen;25</span>
+							<span class="op">&yen;54</span>
+						</p>
+					</div>
+					<div class="buy-btn">
+						<a href="details.html">抢购中</a>
+					</div>
+				</li>
+				<li class="am-cf pr">
+					<div class="pic_box am-fl">
+						<img src="img/a8.jpg" />
+					</div>
+					<div class="infor-box am-fl">
+						<p>切菜0负担</p>
+						<p>
+							<span class="sk">秒杀</span>
+							<span class="np">&yen;109</span>
+							<span class="op">&yen;307</span>
+						</p>
+					</div>
+					<div class="buy-btn">
+						<a href="details.html">抢购中</a>
+					</div>
+				</li>
+				<li class="am-cf pr">
+					<div class="pic_box am-fl">
+						<img src="img/a9.jpg" />
+					</div>
+					<div class="infor-box am-fl">
+						<p>竹炭陶日式咖啡杯 茶杯（200ml）</p>
+						<p>
+							<span class="sk">秒杀</span>
+							<span class="np">&yen;65</span>
+							<span class="op">&yen;198</span>
+						</p>
+					</div>
+					<div class="buy-btn">
+						<a href="details.html">抢购中</a>
+					</div>
+				</li>
+				<li class="am-cf pr">
+					<div class="pic_box am-fl">
+						<img src="img/a10.jpg" />
+					</div>
+					<div class="infor-box am-fl">
+						<p>欧风纯白蓝边大盘</p>
+						<p>
+							<span class="sk">秒杀</span>
+							<span class="np">&yen;29</span>
+							<span class="op">&yen;58</span>
+						</p>
+					</div>
+					<div class="buy-btn">
+						<a href="details.html">抢购中</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!--更多-->
+		<div class="more-goods">
+			没有更多了==
+		</div>
+		<!--底部备案-->
+		<div class="am-footer">
+			<div>优集品©2011-2015 京ICP备11028595号</div>
+			<div>客服电话 tel:4000788738</div>
+		</div>
+		<!---->
+		<!--[if (gte IE 9)|!(IE)]><!-->
+		<script src="js/jquery-3.2.1.min.js" charset="utf-8"></script>
+		<!--<![endif]-->
+		<!--[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+		<script src="assets/js/amazeui.min.js"></script>
+	</body>
+	<script type="text/javascript">
+		//js语法
+		window.onload = function() {
+			var oTime = document.getElementsByClassName("time");
+			//计时器决定倒计时时间
+			function time() {
+				var now = new Date();
+				var stime = new Date(2017, 10, 11);
+				var ms = stime - now;
+				var hours = parseInt(ms / (1000 * 60 * 60) % 24);
+				var mintues = parseInt(ms / (1000 * 60) % 60);
+				var seconds = parseInt(ms / 1000 % 60);
+
+				for(var i = 0; i < oTime.length; i++) {
+					oTime[i].innerHTML = '<span>' + hours + '</span>' + ":" + '<span>' + mintues + '</span>' + ":" + '<span>' + seconds + '</span>';
+				}
+			}
+			time();
+			var js = setInterval(time, 1000);
+		}
+	</script>
+	<!--显示隐藏搜索栏-->
+	<script type="text/javascript">
+		window.onload = function() {
+			var oSearch = document.getElementsByClassName("search");
+			var oSbox = document.getElementsByClassName("search-box");
+			var oNum = 0;
+			oSearch[0].onclick = function() {
+				if(oNum % 2 == 0) {
+					oSbox[0].style.display = "block";
+				} else {
+					oSbox[0].style.display = "none";
+				}
+				oNum++;
+				//禁止滑动
+				$('#collapse-nav-1').addClass('ovfHiden');
+			}
+		}
+	</script>
+
+</html>

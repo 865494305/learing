@@ -1,0 +1,81 @@
+@charset "utf-8";
+.am-btn {
+	color: rgba(255, 255, 255, 0.7) !important;
+	padding: 0;
+}
+
+.icon1 em {
+	background: url(../img/icon100.png);
+	background-size: 100%;
+}
+
+.denglu {
+	outline: none;
+	padding-bottom: 1rem;
+	border-radius: 5px;
+	height: 44px;
+	line-height: 44px;
+	width: 100%;
+	color: white;
+	background: rgba(0, 0, 0, 0.35);
+	margin-top: 30px;
+}
+
+
+/*biaodan*/
+
+#vld-tooltip {
+	position: absolute;
+	z-index: 1000;
+	padding: 5px 10px;
+	background: #F37B1D;
+	min-width: 150px;
+	color: #fff;
+	transition: all 0.15s;
+	box-shadow: 0 0 5px rgba(0, 0, 0, .15);
+	display: none;
+}
+
+#vld-tooltip:before {
+	position: absolute;
+	top: -8px;
+	left: 50%;
+	width: 0;
+	height: 0;
+	margin-left: -8px;
+	content: "";
+	border-width: 0 8px 8px;
+	border-color: transparent transparent #F37B1D;
+	border-style: none inset solid;
+}
+
+
+/**/
+
+#doc-vld-name-2-0 {
+	outline: none;
+	display: inline;
+	border: 0;
+	background: none;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+	margin-bottom: 6%;
+	color: rgba(255, 255, 255, 0.7);
+	margin-top: 0px;
+	font-size: 13px;
+	width: calc(100% - 63px);
+	padding: 3px;
+}
+
+#doc-vld-pwd-1-0 {
+	outline: none;
+	display: inline;
+	border: 0;
+	background: none;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+	margin-bottom: 6%;
+	color: rgba(255, 255, 255, 0.7);
+	margin-top: 0px;
+	font-size: 13px;
+	width: calc(100% - 63px);
+	padding: 3px;
+}

@@ -1,0 +1,192 @@
+@charset "utf-8";
+body {
+	background-color: #EEEEEE;
+}
+
+a {
+	color: #4F494B;
+}
+
+li {
+	list-style: none;
+}
+
+.pr {
+	position: relative;
+}
+
+
+/*头部导航栏*/
+
+.am-header {
+	line-height: 0px;
+}
+
+.am-header-default {
+	background-color: #31313C;
+	width: 100%;
+	height: 56px;
+}
+
+.am-header-nav .logo {
+	width: 65px;
+	height: 20px;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+.am-header .am-header-nav img {
+	display: block;
+	height: 20px;
+	width: auto;
+	vertical-align: middle;
+}
+
+.am-header .am-header-right a span {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin-top: 15px;
+	margin-left: 22px;
+	position: relative;
+}
+
+.am-header .am-header-right a .search {
+	background: url(../img/top1.png) center no-repeat;
+	background-size: cover;
+}
+
+.am-header .am-header-right a .personal {
+	background: url(../img/top2.png) center no-repeat;
+	background-size: cover;
+}
+
+.am-header .am-header-right a .bag {
+	background: url(../img/top3.png) center no-repeat;
+	background-size: cover;
+}
+
+.am-header .am-header-right a .bag .num {
+	position: absolute;
+	right: 0;
+	top: -15px;
+	font-size: 10px;
+	width: 15px;
+	height: 15px;
+	text-align: center;
+	line-height: 15px;
+	background: #E74C3C;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	color: #fff;
+	display: block;
+}
+
+
+/*搜索盒子*/
+
+.cancel {
+	font-size: 14px;
+	width: 60px;
+	position: absolute;
+	top: 8px;
+	right: -8px;
+}
+
+.sbox {
+	height: 40px;
+	background-color: white;
+	margin-top: 5px;
+	padding-top: 10px;
+}
+
+.sbox input {
+	font-size: 14px;
+	display: block;
+	margin-left: 20px;
+	width: 75%;
+	border: none;
+	background-color: #EEEEEE;
+	border-radius: 10px;
+}
+
+.search-box {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 328px;
+	overflow: auto;
+	z-index: 500;
+}
+
+.search-box ul {
+	margin: 0;
+}
+
+.search-box ul li .list-a {
+	font-size: 14px;
+	padding-left: 10px;
+}
+
+.search-box ul li .list-b {
+	font-size: 12px;
+	padding-left: 30px;
+}
+
+
+/*从这里开始写*/
+
+.add-box .have-box {
+	padding: 30px 10px 30px 10px;
+	background-color: white;
+}
+
+.add-box .name {
+	font-size: 15px;
+}
+
+.add-box .address {
+	font-size: 13px;
+}
+
+.new-box {
+	text-align: center;
+}
+
+.new-box a {
+	display: inline-block;
+	width: 160px;
+	height: 44px;
+	line-height: 44px;
+	background: #E74C3C;
+	font-size: 15px;
+	margin: 30px 0;
+	color: white;
+	border-radius: 5px;
+}
+
+
+/**/
+
+
+/*底部备案*/
+
+.am-footer {
+	padding-bottom: 0;
+}
+
+.am-footer div {
+	font-size: 12px;
+}
+
+.am-footer div:last-child {
+	color: #E74C3C
+}
+
+
+/*禁止滑动*/
+
+.ovfHiden {
+	overflow: hidden;
+	height: 100%;
+}

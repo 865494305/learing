@@ -1,0 +1,21 @@
+@charset "utf-8";
+li {
+	list-style: none;
+}
+
+
+p {
+	margin: 0;
+	font-size: 13px;
+}
+
+ul {
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+h5 {
+	font-size: 15px;
+	margin-bottom: 0px;
+}
